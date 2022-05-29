@@ -1,0 +1,18 @@
+select{
+    appearance: none;
+    background-color: transparent;
+    color: #efefef;
+    font-size: 35px;
+    display: block;
+}
+select::after{
+    content: ">";
+
+}
+option{
+    background-color: rgb(170, 11, 64);
+}
+option:hover{
+    background-color: rgb(170, 11, 64);
+    color: aqua;
+}
